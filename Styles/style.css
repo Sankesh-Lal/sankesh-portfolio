@@ -1,0 +1,459 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  background-color: #f6f2f0;
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+  --primary_color: #ff5588;
+}
+
+/* Images and Icons  Left Section  */
+.container {
+  padding: 70px 90px;
+  display: flex;
+}
+
+.profile-data {
+  width: 17%;
+  margin-top: 40px;
+}
+
+.profile-data img {
+  border-radius: 20px;
+}
+
+.icons {
+  margin-top: 20px !important;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+  margin-left: 37px;
+  font-size: 20px;
+}
+
+.icons iconify-icon:hover{
+  scale: 1.2;
+  cursor: pointer;
+}
+
+.profile-data button {
+  width: 160px;
+  margin: 20px 30px;
+  border: 1px solid #333333;
+  border-radius: 10px;
+  padding: 14px 48px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.profile-data button:hover{
+  background-color:var(--primary_color);
+}
+
+/*  Right Section  */
+.profile-details {
+  margin-left: 80px;
+}
+
+.profile-details .intro h2 {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--primary_color);
+}
+
+.profile-details .intro h1 {
+  margin-top: 25px;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.profile-details .intro p {
+  margin-top: 22px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/*  Work-Done Section  */
+.work-done {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.work-done .projects {
+  text-align: center;
+}
+
+.work-done .projects h1 {
+  color: var(--primary_color);
+  margin-bottom: 2px;
+  font-family: Inter;
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.work-done .projects span {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* About-Section */
+.about {
+  margin-top: 130px;
+}
+
+.about span {
+  color: var(--primary_color);
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.about h2 {
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 15px;
+  color: #181818;
+}
+
+.about p {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 16px;
+  color: #333333;
+}
+
+/* Career-Section */
+.career {
+  margin-top: 120px;
+}
+
+.career span {
+  color: var(--primary_color);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.career h2 {
+  color: #181818;
+  font-size: 26px;
+  font-weight: 400;
+  margin-top: 13px;
+}
+
+.journey {
+  margin-top: 25px;
+}
+
+.journey p {
+  color: #333333;
+  font-size: 11px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+.journey span {
+  color: #181818;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* Services-Section */
+.services {
+  margin-top: 150px;
+}
+
+.services span {
+  color: var(--primary_color);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.services h2 {
+  margin-top: 15px;
+  color: #181818;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.expertise {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.expertise-define {
+  border: 1px solid #ff5588;
+  padding: 15px 10px;
+  border-radius: 10px;
+}
+
+.expertise .expertise-define span {
+  color: #181818;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.expertise .expertise-define p {
+  color: #333333;
+  font-size: 10px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.expertise-define-1 {
+  border: 1px solid #333333;
+  padding: 15px 30px;
+  border-radius: 10px;
+}
+
+.expertise .expertise-define-1 span {
+  color: #181818;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.expertise .expertise-define-1 p {
+  color: #333333;
+  font-size: 10px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Skills-Section */
+.skills {
+  margin-top: 150px;
+}
+
+.skills span {
+  color: var(--primary_color);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.skills h2 {
+  color: #181818;
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 13px;
+}
+
+.knowledge {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.knowledge img {
+  width: 50px;
+}
+
+.knowledge img:hover{
+  scale: 1.1;
+  cursor: pointer;
+}
+
+
+/* Portfolio-Section */
+.portfolio {
+  margin-top: 100px;
+}
+
+.portfolio span {
+  color: var(--primary_color);
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.portfolio h2 {
+  color: #181818;
+  font-size: 23px;
+  font-weight: 400;
+  margin-top: 12px;
+}
+
+.project-pic-1 img {
+  margin-top: 22px;
+  width: 600px;
+  height: 350px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.project-pic-2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.project-pic-2 img {
+  width: 290px;
+  border-radius: 20px;
+  border: 1px solid black;
+  
+}
+
+/* Testimonial-Section */
+.testimonial {
+  margin-top: 150px;
+}
+
+.testimonial span {
+  color: var(--primary_color);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.testimonial h2 {
+  color: #181818;
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+.about-detail {
+  margin-top: 25px;
+  display: flex;
+  border: 1px solid #333333;
+  padding: 50px 0px;
+  border-radius: 20px;
+}
+
+.about-detail .sankesh-pic {
+  margin-left: 55px;
+}
+
+.about-detail .sankesh-pic img {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+}
+
+.sankesh-data {
+  margin-left: 20px;
+  margin-top: 7px;
+}
+
+.sankesh-data span {
+  color: #181818;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.sankesh-data p {
+  color: #181818;
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 6px;
+}
+
+.sankesh-detail {
+  margin-top: 40px;
+}
+
+.sankesh-detail p {
+  color: #181818;
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 10px;
+}
+
+/* Brands-Section */
+.brands {
+  margin-top: 150px;
+}
+
+.brands span {
+  color: var(--primary_color);
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.brands h2 {
+  color: #181818;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.brands-worldwide {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.brands-worldwide img {
+  width: 80px;
+}
+
+.brands-worldwide img:hover{
+  scale: 1.1;
+  cursor: pointer;
+}
+
+/* Contact-Section */
+.contact {
+  margin-top: 120px;
+}
+
+.contact span {
+  color: var(--primary_color);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.form-input {
+  margin: 60px 0;
+}
+
+.label label {
+  color: #333333;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.form-input input {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid #999999;
+  width: 400px;
+  padding: 10px;
+}
+
+.form-input input:focus {
+  outline: none;
+}
+
+.form-textarea textarea {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid #999999;
+  padding: 10px;
+}
+
+.form-textarea textarea:focus {
+  outline: none;
+}
+
+.hire-btn {
+  margin-top: 20px;
+  padding: 15px 55px;
+  border-radius: 15px;
+  border: 1px solid #999999;
+  color: #181818;
+  font-size: 15px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+
+.hire-btn:hover{
+  background-color:var(--primary_color);
+}
